@@ -13,6 +13,11 @@ module.exports = {
         "./ProductsIndex": "./src/index",
       },
       shared: ["faker"],
+      // shared: {
+      //   faker: {
+      //     singleton: true,
+      //   },
+      // },
     }),
     new HtmlPlugins({
       template: "./public/index.html",
